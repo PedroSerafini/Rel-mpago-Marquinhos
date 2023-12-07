@@ -136,8 +136,8 @@ def encontrar_menor_caminho_com_regras(origem, destino):
 
     return caminho, custo_total, distancia_total, dias, data_chegada
 
-ponto_partida = "Londrina"
-destino = "Foz do Iguaçu"
+ponto_partida = "Curitiba"
+destino = "Pelotas"
 caminho, custo, distancia, dias, data_chegada = encontrar_menor_caminho_com_regras(ponto_partida, destino)
 
 if caminho is not None:
