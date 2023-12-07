@@ -50,8 +50,8 @@ Um mapa interativo será gerado e salvo como 'caminho.html'.
 ## Exemplo de Uso
 
 ```bash
-ponto_partida = "Londrina"
-destino = "Foz do Iguaçu"
+ponto_partida = "Curitiba"
+destino = "Pelotas"
 caminho, custo, distancia, dias, data_chegada = encontrar_menor_caminho_com_regras(ponto_partida, destino)
 ```
 
