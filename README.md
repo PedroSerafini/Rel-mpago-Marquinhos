@@ -55,7 +55,13 @@ destino = "Pelotas"
 caminho, custo, distancia, dias, data_chegada = encontrar_menor_caminho_com_regras(ponto_partida, destino)
 ```
 
-##Contribuições
+![Exemplo 1](Exemplo1.png)
+![Exemplo 1 imagem](Exemplo1img.png)
+![Exemplo 2](Exemplo2.png)
+![Exemplo 2 imagem](Exemplo2img.png)
+
+
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests.
 
