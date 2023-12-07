@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae143270f6dd35e7bbfebad83598aacc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae143270f6dd35e7bbfebad83598aacc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae143270f6dd35e7bbfebad83598aacc = L.map(
+                "map_ae143270f6dd35e7bbfebad83598aacc",
+                {
+                    center: [-23.3105, -51.1625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_abd5c7468e189d619bf6596940a78d0a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_abd5c7468e189d619bf6596940a78d0a.addTo(map_ae143270f6dd35e7bbfebad83598aacc);
+    
+            var marker_ed0056999553d2dd2b0e7d3089c77be6 = L.marker(
+                [-23.3105, -51.1625],
+                {}
+            ).addTo(map_ae143270f6dd35e7bbfebad83598aacc);
+        
+    
+            var icon_077d3908d9d87ce08916b0a477462326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed0056999553d2dd2b0e7d3089c77be6.setIcon(icon_077d3908d9d87ce08916b0a477462326);
+        
+    
+        var popup_7a745e6ed57f2b44fcf0272720103da9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f05fda81d2d52be547307f8ce09a4007 = $(`<div id="html_f05fda81d2d52be547307f8ce09a4007" style="width: 100.0%; height: 100.0%;">Londrina</div>`)[0];
+                popup_7a745e6ed57f2b44fcf0272720103da9.setContent(html_f05fda81d2d52be547307f8ce09a4007);
+            
+        
+
+        marker_ed0056999553d2dd2b0e7d3089c77be6.bindPopup(popup_7a745e6ed57f2b44fcf0272720103da9)
+        ;
+
+        
+    
+    
+            var marker_923f5c074c212f7757c495c19ad18495 = L.marker(
+                [-25.5478, -54.5882],
+                {}
+            ).addTo(map_ae143270f6dd35e7bbfebad83598aacc);
+        
+    
+            var icon_9b9ce3235964b0ffe9408136420088e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_923f5c074c212f7757c495c19ad18495.setIcon(icon_9b9ce3235964b0ffe9408136420088e5);
+        
+    
+        var popup_c31fcece3f8e4b1201d07cc10ca6320c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa8408d3c22be9eec53eb769ce890362 = $(`<div id="html_aa8408d3c22be9eec53eb769ce890362" style="width: 100.0%; height: 100.0%;">Foz do Iguaçu</div>`)[0];
+                popup_c31fcece3f8e4b1201d07cc10ca6320c.setContent(html_aa8408d3c22be9eec53eb769ce890362);
+            
+        
+
+        marker_923f5c074c212f7757c495c19ad18495.bindPopup(popup_c31fcece3f8e4b1201d07cc10ca6320c)
+        ;
+
+        
+    
+    
+            var marker_827f2c0ac79d6cd482e55cc58cb7b074 = L.marker(
+                [-26.2276, -51.087],
+                {}
+            ).addTo(map_ae143270f6dd35e7bbfebad83598aacc);
+        
+    
+            var icon_3f5ad1a5f48984f596ce7d0aebcebb40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_827f2c0ac79d6cd482e55cc58cb7b074.setIcon(icon_3f5ad1a5f48984f596ce7d0aebcebb40);
+        
+    
+        var popup_e33c2ab1a6df16f5a39f393383d887bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eecbbe8d1185e5184a43528decc787e2 = $(`<div id="html_eecbbe8d1185e5184a43528decc787e2" style="width: 100.0%; height: 100.0%;">União da Vitória</div>`)[0];
+                popup_e33c2ab1a6df16f5a39f393383d887bd.setContent(html_eecbbe8d1185e5184a43528decc787e2);
+            
+        
+
+        marker_827f2c0ac79d6cd482e55cc58cb7b074.bindPopup(popup_e33c2ab1a6df16f5a39f393383d887bd)
+        ;
+
+        
+    
+    
+            var poly_line_77e2d8ac63cef745eae35067c6e05c99 = L.polyline(
+                [[-23.3105, -51.1625], [-25.5478, -54.5882], [-26.2276, -51.087]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_ae143270f6dd35e7bbfebad83598aacc);
+        
+</script>
+</html>
