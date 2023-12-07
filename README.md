@@ -4,6 +4,10 @@ Este projeto implementa um sistema de logística de rotas para otimizar o transp
 
 ## Alunos
 
+1. Pedro Henrique Serafini (RA: 172211008)
+1. Rodrigo De Souza Alves (RA: 172211874)
+1. Leonardo Rebouças Busato (RA: 172213039)
+
 ## Funcionalidades
 
 - Encontrar o menor caminho entre duas cidades.
@@ -33,11 +37,12 @@ Execute o script Python principal:
 python logistica_rotas.py
 ```
 
-Entrada de Dados:
+## Entrada de Dados:
 
-Modifique as informações das cidades no script, se necessário.
-Defina as rotas e regras de negócio conforme especificado no código.
-Resultados:
+- Modifique as informações das cidades no script, se necessário.
+- Defina as rotas e regras de negócio conforme especificado no código.
+  
+## Resultados:
 
 O script exibirá o menor caminho, custo, distância e tempo estimado.
 Um mapa interativo será gerado e salvo como 'caminho.html'.
